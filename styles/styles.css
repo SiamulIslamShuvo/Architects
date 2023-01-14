@@ -269,3 +269,47 @@ ul{
     font-size: 20px;
     color: #727272;
 }
+
+/* Our Sponsore */
+
+.sponsore-dsc{
+    text-align: center;
+    padding-top: 100px;
+}
+.sponsore-dsc h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding: 10px;
+}
+.sponsore-dsc p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 10px;
+}
+.sponsore-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    filter: grayscale(1);
+    padding: 50px;
+}
+/* footer section */
+
+footer{
+    background-color: #FFFFFF;
+    padding: 100px;
+}
+.footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
