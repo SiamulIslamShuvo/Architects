@@ -90,3 +90,52 @@ ul{
 .banner-img{
     padding: 40px 0;
 }
+
+/* features styles  */
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+
+    
+}
+.feature-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.feature-items{
+    width: 537px;
+    height: 304px;
+}
+.feature-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    padding: 12px;
+}
+/* Title text style  */
+
+.style-1{
+    color: #131313;
+    font-weight: 700;
+}
+.style-2{
+    color: #FF900E;
+    font-weight: 700;
+}
+
+/* ===========*=========== */
+.feature-dsc{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 12px;
+}
+
+.feature-btn{
+    margin-top: 12px;
+}
