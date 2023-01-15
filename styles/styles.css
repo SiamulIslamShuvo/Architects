@@ -178,6 +178,8 @@ h2 {
     font-size: 45px;
     color: #727272;
     padding: 12px 0;
+    width: 100%;
+    max-width: 400px;
 }
 /* Title text style  */
 
