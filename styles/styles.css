@@ -138,8 +138,8 @@ h2 {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    width: 850px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 850px;
     color: #727272;
 }
 .btn-primary{
@@ -241,11 +241,15 @@ h2 {
     padding: 12px 0;
 }
 .item-sub{
-    width: 514px;
-    height: 130px;
+    max-width: 514px;
+    width: 100%;
+    height: 160px;
     padding: 7px;
     box-shadow: 0px 0px 16px 3px #0000001f;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .item-sub h4{
     font-weight: 600;
@@ -280,7 +284,7 @@ h2 {
 /* Facts Section  */
 
 .facts-section{
-    padding-top: 170px;
+    padding-top: 200px;
 }
 .facts-dsc h2{
     font-weight: 700;
@@ -402,14 +406,14 @@ h2 {
 
 footer{
     background-color: #FFFFFF;
-    padding: 100px;
+    padding: 100px 0;
 }
 .footer{
     background: #FFF4E7;
     border-radius: 8px;
-    width: 1440px;
+    width: 100%;
     height: 100px;
-    max-width: 100%;
+    max-width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -431,6 +435,9 @@ footer{
 /*Mobile Responsive  */
 
 @media (max-width: 576px) {
+    .box{
+        width: 100%;
+    }
 
     /* Menu  */
     .menu-button-container {
@@ -471,5 +478,61 @@ footer{
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
-  }
+/* Introduction styles */
+    .intro-title{
+        font-size: 35px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    /* Features Section  */
+
+    .features{
+        flex-direction: column;
+    }
+    .feature-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-images img{
+        display: block;
+        margin: 0 auto;
+    }
+   /* Items section  */
+
+   .list-items{
+        flex-direction: column;
+    }
+    .item-img img{
+         width: 100%;
+    }
+    .list-btn{
+        height: 150px;
+    }
+/* Facts section */
+
+    .fact-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+/* Update  */
+    .email{
+        width: 60%;
+    }
+
+/* Sponsore Section */
+    .sponsore-list{
+        flex-direction: column;
+        gap: 40px;
+    }
+/* Footer */
+    .footer{
+        padding: 10px;
+        text-align: center;
+    }
+
+}
+
+
+  
 
