@@ -232,6 +232,7 @@ h2 {
 .item-title{
     font-weight: 700;
     font-size: 45px;
+    text-align: inherit;
     color: #131313;
     padding: 12px 10px;
 
@@ -326,11 +327,12 @@ h2 {
     align-items: center;
     gap: 10px;
     border: 1px solid #FF900E;
-    transition: width 1s ease .3s, height 1s ease .3s, transform 1s;
+    transition: width 1s ease .3s, height 1s ease .3s, transform 1s;  /* animation */
 }
 
 .facts:hover{
     transform: rotate(360deg); /* animation */
+    
 }
 
 .facts h2{
