@@ -21,7 +21,7 @@ a:link{
     color:#424242;
 }
 a:visited{
-    color: #ffffff;
+    color: #424242;
 }
 .container{
     width: 95%;
@@ -490,6 +490,9 @@ footer{
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
+    }
+    a:visited{
+        color: #ffffff;
     }
 /* Introduction styles */
     .intro{
